@@ -1,0 +1,182 @@
+body {
+  background: #e5e5e5;
+  color: #1d1f2e;
+}
+
+.body {
+  width: 1330px;
+  margin: auto;
+  background: #ffffff;
+  font-family: "Karla";
+  height: 6100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 1330px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background: white;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #1d1f2e;
+}
+
+li > a:hover {
+  text-decoration: underline;
+}
+
+.coffeStyle,
+.cart {
+  height: 24px;
+}
+
+.mainDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #050827;
+}
+
+.mainText {
+  margin-top: -350px;
+  margin-left: 300px;
+}
+
+.description {
+  width: 578px;
+  margin: 300px auto 0px auto;
+  text-align: center;
+  font-family: "Karla";
+  line-height: 40px;
+}
+
+.descrHeader {
+  font-size: 28px;
+}
+
+.descrParag {
+  color: #1d1f2e 70%;
+  line-height: 28px;
+}
+
+.brownLink {
+  color: #a25f4b;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.brownLink:hover {
+  text-decoration: underline #a25f4b;
+}
+
+.pageTitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featuredContainer {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.smallCard {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  justify-content: center;
+}
+
+.pageDivider {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.storyCardCont {
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footerDiv {
+  height: 330px;
+  background: #1d1f2e;
+  margin: 50px auto;
+  display: flex;
+}
+
+.footerDivCont {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+
+.footerPageTitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.coffeeUpdate {
+  font-size: 36px;
+}
+
+.customerBtn {
+  background: #1d1f2e;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid #2f303e;
+  width: 350px;
+  height: 54px;
+  margin: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.subBtn {
+  background: white;
+  text-transform: uppercase;
+  width: 130px;
+  height: 54px;
+  border: none;
+  letter-spacing: 2px;
+  margin: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.footerCardCont {
+  width: 950px;
+  margin-left: 350px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
